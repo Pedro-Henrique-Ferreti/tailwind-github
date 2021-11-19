@@ -1,5 +1,5 @@
 <template>
-  <div class="text-gray-900 text-sm">
+  <div class="text-gray-900 text-sm min-h-screen flex flex-col">
     <the-header />
     <div class="w-full bg-light-blue">
       <repository-stats />
@@ -9,6 +9,7 @@
       <file-explorer />
       <sidebar />
     </div>
+    <the-footer />
   </div>
 </template>
 
