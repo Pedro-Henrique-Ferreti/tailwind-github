@@ -5,6 +5,10 @@
       <repository-stats />
       <repository-nav />
     </div>
+    <div class="container mx-auto my-8 px4 flex">
+      <file-explorer />
+      <sidebar />
+    </div>
   </div>
 </template>
 
