@@ -18,6 +18,28 @@
       <p class="mt-4 text-xs text-gray-600">No packages published</p>
       <a href="#" class="text-xs text-blue-600 hover:underline">Publish your first package</a>
     </sidebar-item>
+    <sidebar-item title="Languages">
+      <div class="mt-4 flex">
+        <div style="width: 94.1%" class="h-2 rounded-md rounded-r-none bg-green-600"></div>
+        <div style="width: 5.9%" class="h-2 rounded-md rounded-l-none bg-yellow-300"></div>
+      </div>
+      <ul class="mt-2 flex space-x-8 items-center text-xs">
+        <li class="flex items-center">
+          <span class="w-2 h-2 rounded-full bg-green-600"></span>
+          <span class="ml-4">
+            <span class="font-semibold">Vue </span>
+            <span>94.1%</span>
+          </span>
+        </li>
+        <li class="flex items-center">
+          <span class="w-2 h-2 rounded-full bg-yellow-300"></span>
+          <span class="ml-4">
+            <span class="font-semibold">JavaScript </span>
+            <span>5.9%</span>
+          </span>
+        </li>
+      </ul>
+    </sidebar-item>
   </div>
 </template>
 
