@@ -39,14 +39,23 @@
       </div>
     </div>
     <div class="mt-4 border border-gray-300 rounded-md p-4">
-      <span class="font-semibold">README.md</span>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et quo modi nesciunt? Est quasi quas commodi iure voluptas nam doloremque tempora aliquam ipsum vero iusto dolorem vel at possimus autem nulla perspiciatis et, quo modi incidunt libero officia dignissimos ipsam. Cupiditate labore amet eum voluptatum.</p>
+      <div 
+        class="prose max-w-none px-4"
+        v-html="tailwindReadMe"
+      />
     </div>
   </div>
 </template>
 
 <script>
+import tailwindReadMe from '@/static/tailwind-css.md';
+
 export default {
   name: 'FileExplorerView',
+  computed: {
+    tailwindReadMe() {
+      return tailwindReadMe;
+    },
+  },
 };
 </script>
